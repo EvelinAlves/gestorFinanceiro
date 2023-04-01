@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using gestorFinanceiro.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace gestorFinanceiro.Controllers;
 
@@ -15,12 +16,14 @@ public class UsuarioController : Controller
         new Usuario { Id = 4, Apelido = "Regina", Cpf = "44444444444", Email = "regina@email.com.br", EstadoCivil = "viuva", Genero = 'F', Idade = 18, Nome = "Regina Alves", Senha = "987654321", Situacao = false  }
     };
 
+    [EnableCors("AnotherPolicy")] 
     [HttpGet(Name = "GetUsuarios")]
     public List<Usuario> Get()
     {
         return listaUsuarios;
     }
 
+    [EnableCors("AnotherPolicy")] 
     [HttpGet("{id:int}")]
     public Usuario Get(int id)
     {
