@@ -30,3 +30,14 @@ C:\Projetos\gestorFinanceiro\obj\Debug\net6.0\refint\gestorFinanceiro.dll
 C:\Projetos\gestorFinanceiro\obj\Debug\net6.0\gestorFinanceiro.pdb
 C:\Projetos\gestorFinanceiro\obj\Debug\net6.0\gestorFinanceiro.genruntimeconfig.cache
 C:\Projetos\gestorFinanceiro\obj\Debug\net6.0\ref\gestorFinanceiro.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Projetos\gestorFinanceiro\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

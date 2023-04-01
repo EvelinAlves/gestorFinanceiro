@@ -7,8 +7,12 @@ namespace gestorFinanceiro.Models
 {
     public class LancamentoConta : Lancamento
     {
-            public int CodBanco { get; set; }
+            public int IdBanco { get; set; }
             public DateTime DataBaixa{ get; set; }
 
+            public LancamentoConta()
+                :base()
+            {             
+            }
     }
 }

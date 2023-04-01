@@ -7,7 +7,7 @@ namespace gestorFinanceiro.Models
 {
     public class Usuario
     {
-        public int Codigo { get; }
+        public long Id { get; set; }
         public string? Cpf { get; set; }
         public string? Email { get; set; }
         public string? Nome { get; set; }
@@ -17,5 +17,9 @@ namespace gestorFinanceiro.Models
         public char Genero { get; set; }
         public int Idade { get; set; }
         public string? EstadoCivil { get; set; }
+
+        public Usuario()
+        {
+        }
     }
 }

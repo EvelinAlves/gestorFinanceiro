@@ -7,9 +7,13 @@ namespace gestorFinanceiro.Models
 {
     public class Categoria
     {
-        public int Codigo { get; }
-        public int CodUsuario { get; set; }
+        public long Id { get; set; }
+        public int IdUsuario { get; set; }
         public string? Descricao { get; set; }
         public bool Situacao { get; set; }
+
+        public Categoria()
+        {
+        }
     }
 }

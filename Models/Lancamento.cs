@@ -7,17 +7,19 @@ namespace gestorFinanceiro.Models
 {
     public class Lancamento
     {
-        public int Codigo { get; }
-        public int CodUsuario { get; set; }
-        public int CodTipoTransacao { get; set; }
-        public int CodTipoSituacaoTransacao { get; set; }
-        public int CodCategoria { get; set; }
+        public long Id { get; set; }
+        public int IdUsuario { get; set; }
+        public int IdTipoTransacao { get; set; }
+        public int IdTipoSituacaoTransacao { get; set; }
+        public int IdCategoria { get; set; }
         public decimal Valor { get; set; }
         public DateTime DataTransacao { get; set; }
         public bool DespesaFixa { get; set; }
         public string? Descricao { get; set; }
         public int CodigoRelacao { get; set; }
         
-        
+        public Lancamento()
+        {
+        }
     }
 }

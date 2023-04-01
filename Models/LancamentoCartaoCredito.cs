@@ -7,6 +7,11 @@ namespace gestorFinanceiro.Models
 {
     public class LancamentoCartaoCredito : Lancamento
     {
-         public int CodCartaoCredito { get; set; }
+         public int IdCartaoCredito { get; set; }
+
+         public LancamentoCartaoCredito()
+            : base()
+         {
+         }
     }
 }

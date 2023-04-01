@@ -7,12 +7,16 @@ namespace gestorFinanceiro.Models
 {
     public class ContaFinanceira
     {
-        public int Codigo { get; }
-        public int CodUsuario { get; set; }
-        public int CodBanco { get; set; }
-        public int CodTipoConta { get; set; }
+        public long Id { get; set; }
+        public int IdUsuario { get; set; }
+        public int IdBanco { get; set; }
+        public int IdTipoConta { get; set; }
         public decimal Saldo { get; set; }
         public bool Situacao { get; set; }
+
+        public ContaFinanceira()
+        { 
+        }
         
     }
 }
