@@ -1,14 +1,12 @@
-using gestorFinanceiro.Data;
 using Microsoft.EntityFrameworkCore;
+using gestorFinanceiro.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;
 
 services.AddDbContext<DataContext>();
-
 builder.Services.AddCors(options =>
 {
-
     options.AddPolicy("Policy1",
         policy =>
         {
