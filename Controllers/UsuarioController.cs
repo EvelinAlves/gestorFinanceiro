@@ -6,7 +6,7 @@ namespace gestorFinanceiro.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class UsuarioController : Controller
+public class UsuarioController : ControllerBase
 {
     private static readonly List<Usuario> listaUsuarios = new List<Usuario>
     {
@@ -16,15 +16,16 @@ public class UsuarioController : Controller
         new Usuario { Id = 4, Apelido = "Regina", Cpf = "44444444444", Email = "regina@email.com.br", EstadoCivil = "viuva", Genero = 'F', Idade = 18, Nome = "Regina Alves", Senha = "987654321", Situacao = false  }
     };
 
-    [EnableCors("AnotherPolicy")] 
+    [EnableCors("PolicyTesteCORS")] 
     [HttpGet(Name = "GetUsuarios")]
     public List<Usuario> Get()
     {
         return listaUsuarios;
     }
 
-    [EnableCors("AnotherPolicy")] 
     [HttpGet("{id:int}")]
+    [EnableCors("PolicyTesteCORS")] 
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public Usuario Get(int id)
     {
         Usuario usuario = listaUsuarios.Find( x => x.Id == id );
