@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
-using gestorFinanceiro.Models;
 using Microsoft.AspNetCore.Cors;
+using gestorFinanceiro.Models;
 
 namespace gestorFinanceiro.Controllers;
 
