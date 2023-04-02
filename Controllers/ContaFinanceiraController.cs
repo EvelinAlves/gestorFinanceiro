@@ -5,7 +5,7 @@ namespace gestorFinanceiro.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class ContaFinanceiraController : Controller 
+public class ContaFinanceiraController : ControllerBase 
 {
     private static readonly List<ContaFinanceira> listContasFinanceiras = new List<ContaFinanceira>
     {
