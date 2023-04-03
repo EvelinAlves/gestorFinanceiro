@@ -1,7 +1,0 @@
-# ignora os arquivos com extensões 
-.gitignore
-
-# ignora quaisquer diretórios chamados "vscode"
-.vscode/
-bin/
-obj/
